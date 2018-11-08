@@ -23,7 +23,7 @@ function [ poly_parameter ] = cust_data_poly( poly_path )
         
         filename = filelist(fi_i).name;
         
-        load_filename = strcat(poly_path, filename);
+        load_filename = strcat(poly_path, filename)
         
         GOF_matrix = GOF_feature_beta(load_filename);
         

@@ -47,11 +47,11 @@ elseif str2double(poly_option) == 0
 else
     poly_para_set = importdata('GOF_mouse_default.mat');
     
-    type_1 = poly_option;
+    type_1 = poly_option
     
-    p_col = str2num(type_1(regexp(type_1, '\d')));
+    p_col = str2num(type_1(regexp(type_1, '\d')))
     
-    type_1(regexp(type_1, '\d')) = [];
+    type_1(regexp(type_1, '\d')) = []
     
     switch type_1
         case 'b'
